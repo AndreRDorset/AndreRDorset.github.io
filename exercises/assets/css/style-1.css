@@ -1,0 +1,14 @@
+h1 {
+    font-size: var(--fs-xxxl);
+    line-height: 1.2;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+h1, h2, h3 {
+    color: brown;
+}
+
+a { color: brown; }
