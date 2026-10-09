@@ -42,3 +42,12 @@ p {
 section { background-color: #dd7373;}
 
 a { color: #d1d1d1; }
+
+:root {
+    /* CSS HEX */
+    --light-coral: #dd7373ff;
+    --space-indigo: #3b3561ff;
+    --golden-glow: #ead94cff;
+    --dust-grey: #d1d1d1ff;
+    --tropical-teal: #51a3a3ff;
+}
