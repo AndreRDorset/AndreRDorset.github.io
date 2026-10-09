@@ -17,7 +17,7 @@
 
             h1, h2 { @apply text-green-700 font-bold; }
 
-            header p {
+            header nav li {
                 @apply text-green-900 text-2xl md:text-3xl/12 text-center font-normal;
             }
 
@@ -37,10 +37,9 @@
                 @apply bg-green-700 text-white inline-block px-6 py-2;
             }
             section img { @apply mb-5 rounded-[25px]; }
-            section p { @apply text-lg md:text-xl/8 mb-5; }
             section > * { @apply w-full max-w-[48rem] mx-auto; }
-            header *:last-child { @apply mb-0!; }
-            section *:last-child { @apply mb-0!; }
+            header > :last-child { @apply mb-0; }
+            section > :last-child { @apply mb-0; }
             a {
                 @apply text-green-800
                     hover:text-green-600
@@ -50,20 +49,24 @@
         </style>
         <title>Ireland's Top Five Visitor Attractions</title>
         <meta name="description"
-            content="The country's most popular atractions for visitors, according to the Irish Tourist Board.">
+            content="The country's most popular attractions for visitors, according to the Irish Tourist Board.">
     </head>
 
     <body id="top-of-page">
 
         <header>
             <h1>Ireland's Top Five Visitor Attractions</h1>
-            <p><a href="#guinness">1: Guinness Storehouse, Dublin</a></p>
-            <p><a href="#cliffs-of-moher">2: Cliffs of Moher, Co. Clare</a></p>
-            <p><a href="#dublin-zoo">3: Dublin Zoo</a></p>
-            <p><a href="#aquatic-centre">4: National Aquatic Centre,
-                    Dublin</a></p>
-            <p><a href="#kells-tcd">5: Book of Kells Exhibition, Trinity
-                    College, Dublin</a></p>
+            <nav>
+                <ul>
+                    <li><a href="#guinness">1: Guinness Storehouse, Dublin</a></li>
+                    <li><a href="#cliffs-of-moher">2: Cliffs of Moher, Co. Clare</a></li>
+                    <li><a href="#dublin-zoo">3: Dublin Zoo</a></li>
+                    <li><a href="#aquatic-centre">4: National Aquatic Centre,
+                    Dublin</a></li>
+                    <li><a href="#kells-tcd">5: Book of Kells Exhibition, Trinity
+                    College, Dublin</a></li>
+                </ul>
+            </nav>
 
             <p>Visiting Ireland is like taking a great big breath of fresh air.
                 Ireland is a country brimming with fun and fascinating ways for
